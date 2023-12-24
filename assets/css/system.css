@@ -1,0 +1,31 @@
+:root {
+	--main: #484283;
+	--badge: #FFF4EE;
+	--btn-back: #F14F4F;
+	--accent-color: #444B58;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+}
+
+.cont {
+	width: min(1180px, 100%);
+}
+.inviz{ 
+	background: none !important;
+	color: none;
+}
+
+::selection {
+	background: #af7aff;
+	color: #fff;
+}
+::-webkit-scrollbar{
+	width: 7px;
+	background: #FFF4EE;
+}
+::-webkit-scrollbar-thumb{
+	background: #39355f;
+	width: 7px;
+}

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SneakMax</title>
+		<link rel="stylesheet" href="./assets/css/style.css" />
+
+		<!-- BOOTSTRAP 5 -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+		/>
+		<!--  -->
+	</head>
+	<body>
+		<div class="header">
+			<div class="cont">
+				<header class="col-12">
+					<div class="logo">SneakMax</div>
+					<nav class="header__nav">
+						<a href="/">Каталог</a>
+						<a href="/">О нас</a>
+						<a href="/">Подбор товара</a>
+						<a href="/">Наша команда</a>
+						<a href="/">Доставка и оплата</a>
+						<a href="/">Контакты</a>
+						<a href="/">Корзина</a>
+					</nav>
+				</header>
+				<section class="landing">
+					<article>
+						<h1>Кроссовки известных брендов с доставкой по России и СНГ</h1>
+						<p>
+							Мы продаем кроссовки брендов Nike, Adidas, Puma, Reebok, Converse
+							и многие другие по низким ценам
+						</p>
+						<button class="landing__btn">Перейти к покупкам</button>
+					</article>
+				</section>
+			</div>
+		</div>
+
+		<div class="catalog col-12">
+			<div class="cont">
+				<h1 class="catalog__title">Каталог</h1>
+				<div class="catalog__shop">
+					<div class="col-3 d-xxl-block d-xl-block d-lg-block d-none filter">
+						<h3 style="color: #444b58">Подбор по параметрам</h3>
+
+						<div class="price-range">
+							<p>Цена, руб</p>
+							<div class="input-group d-flex">
+								<input value="1850" type="number" class="col-6" />
+								<input value="25 768" type="text" class="col-6" />
+							</div>
+							<input type="range" value="100" class="col-12" />
+
+							<div class="gender">
+								<p
+									style="
+										margin: 0;
+										font-size: 16px;
+										margin-bottom: 10px;
+										margin-top: 20px;
+										color: #444b58;
+									"
+								>
+									Пол
+								</p>
+								<div class="d-flex">
+									<div class="gender-block col-6">
+										<input
+											class="form-check-input"
+											type="checkbox"
+											value=""
+											id="flexCheckDefault"
+										/>
+										мужской
+									</div>
+									<div class="gender-block col-6">
+										<input
+											class="form-check-input"
+											type="checkbox"
+											value=""
+											id="flexCheckDefault"
+										/>
+										женский
+									</div>
+								</div>
+							</div>
+
+							<div class="size">
+								<p
+									style="
+										margin: 0;
+										font-size: 16px;
+										margin-bottom: 10px;
+										margin-top: 20px;
+										color: #444b58;
+									"
+								>
+									Размер
+								</p>
+								<div class="size-grid col-12">
+									<div
+										class="size-grid__element br"
+										style="border-top: 1px solid #ffbb95"
+									>
+										35
+									</div>
+									<div
+										class="size-grid__element"
+										style="border-top: 1px solid #ffbb95"
+									>
+										36
+									</div>
+									<div
+										class="size-grid__element"
+										style="border-top: 1px solid #ffbb95"
+									>
+										37
+									</div>
+									<div class="size-grid__element br">38</div>
+									<div class="size-grid__element">39</div>
+									<div class="size-grid__element">40</div>
+									<div class="size-grid__element br">41</div>
+									<div class="size-grid__element">42</div>
+									<div class="size-grid__element">43</div>
+								</div>
+								<button
+									class="col-12"
+									style="
+										border-radius: 4px;
+										border: 1px solid #fff4ee;
+										background: #444b58;
+										height: 60px;
+										color: #fff;
+										margin-top: 20px;
+									"
+								>
+									Применить
+								</button>
+								<a
+									style="
+										margin: 0;
+										font-size: 16px;
+										margin-bottom: 10px;
+										margin-top: 20px;
+										color: #444b58;
+										margin: 0 auto;
+									"
+									href="#"
+								>
+									сбросить
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xxl-9 col-xl-9 col-lg-9 col-md-12 col-12 items">
+						<section class="product">
+							<img src="./assets/img/snake.png" alt="snake" />
+							<p>Кроссовки Nike Air Force 1 'O7 QS</p>
+							<h1>11 000 р</h1>
+						</section>
+						<section class="product">
+							<img src="./assets/img/snake.png" alt="snake" />
+							<p>Кроссовки Nike Air Force 1 'O7 QS</p>
+							<h1>11 000 р</h1>
+						</section>
+						<section class="product">
+							<img src="./assets/img/snake.png" alt="snake" />
+							<p>Кроссовки Nike Air Force 1 'O7 QS</p>
+							<h1>11 000 р</h1>
+						</section>
+						<section class="product">
+							<img src="./assets/img/snake.png" alt="snake" />
+							<p>Кроссовки Nike Air Force 1 'O7 QS</p>
+							<h1>11 000 р</h1>
+						</section>
+						<section class="product">
+							<img src="./assets/img/snake.png" alt="snake" />
+							<p>Кроссовки Nike Air Force 1 'O7 QS</p>
+							<h1>11 000 р</h1>
+						</section>
+						<section class="product">
+							<img src="./assets/img/snake.png" alt="snake" />
+							<p>Кроссовки Nike Air Force 1 'O7 QS</p>
+							<h1>11 000 р</h1>
+						</section>
+						<section class="product">
+							<img src="./assets/img/snake.png" alt="snake" />
+							<p>Кроссовки Nike Air Force 1 'O7 QS</p>
+							<h1>11 000 р</h1>
+						</section>
+						<section class="product">
+							<img src="./assets/img/snake.png" alt="snake" />
+							<p>Кроссовки Nike Air Force 1 'O7 QS</p>
+							<h1>11 000 р</h1>
+						</section>
+						<section class="product">
+							<img src="./assets/img/snake.png" alt="snake" />
+							<p>Кроссовки Nike Air Force 1 'O7 QS</p>
+							<h1>11 000 р</h1>
+						</section>
+						<p class="inviz"></p>
+						<button class="landing__btn col-12">Показать ещё</button>
+						<p class="inviz"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="team">
+			<div class="cont" style="padding: 60px 0 60px">
+				<h1 style="font-size: 30px; font-weight: 700; margin-bottom: 36px">
+					Наша команда
+				</h1>
+				<div class="team__group">
+					<section class="team__card">
+						<img
+							src="./assets/img/profile_img/man.jpg"
+							alt=""
+							class="team__card-photo"
+						/>
+						<article class="team__card-art">
+							<h1>Максим Золотарев</h1>
+							<p>Администратор</p>
+						</article>
+					</section>
+					<section class="team__card">
+						<img
+							src="./assets/img/profile_img/woman.jpg"
+							alt=""
+							class="team__card-photo"
+						/>
+						<article class="team__card-art">
+							<h1>Максим Золотарев</h1>
+							<p>Администратор</p>
+						</article>
+					</section>
+					<section class="team__card">
+						<img
+							src="./assets/img/profile_img/woman_scary.jpg"
+							alt=""
+							class="team__card-photo"
+						/>
+						<article class="team__card-art">
+							<h1>Максим Золотарев</h1>
+							<p>Администратор</p>
+						</article>
+					</section>
+					<section class="team__card">
+						<img
+							src="./assets/img/profile_img/man_black.jpg"
+							alt=""
+							class="team__card-photo"
+						/>
+						<article class="team__card-art">
+							<h1>Максим Золотарев</h1>
+							<p>Администратор</p>
+						</article>
+					</section>
+					<section class="team__card">
+						<img
+							src="./assets/img/profile_img/smoke.jpg"
+							alt=""
+							class="team__card-photo"
+						/>
+						<article class="team__card-art">
+							<h1>Максим Золотарев</h1>
+							<p>Администратор</p>
+						</article>
+					</section>
+					<section class="team__card">
+						<img
+							src="./assets/img/profile_img/white.jpg"
+							alt=""
+							class="team__card-photo"
+						/>
+						<article class="team__card-art">
+							<h1>Максим Золотарев</h1>
+							<p>Администратор</p>
+						</article>
+					</section>
+				</div>
+			</div>
+		</div>
+
+		<div class="getSneak">
+			<div class="cont">
+				<div class="getSneak__badge">
+					<article>
+						<h1 style="font-size: 30px; font-weight: 700">
+							Мы подберём идеальную пару для вас
+						</h1>
+						<p class="getSneak__badge-title">
+							Ответьте на три вопроса и мы вышлем каталог с самыми подходящими
+							для вас моделями
+						</p>
+					</article>
+
+					<hr class="getSneak__hr" />
+					<h1 style="font-size: 24px; font-weight: 400; color: #444b58">
+						Какой тип кроссовок рассматриваете?
+					</h1>
+					<div class="getSneak__grid">
+						<section>
+							<img
+								src="./assets/img/фото кроссовка.svg"
+								alt="photo"
+								style="border-radius: 4px"
+							/>
+							<div
+								class="sneak__control d-flex align-items-center"
+								style="column-gap: 10px; margin-top: 10px"
+							>
+								<input type="checkbox" class="checkbox" />
+								<h1 style="font-size: 16px; font-weight: 400; margin: 0">
+									кеды
+								</h1>
+							</div>
+						</section>
+						<section>
+							<img
+								src="./assets/img/фото кроссовка.svg"
+								alt="photo"
+								style="border-radius: 4px"
+							/>
+							<div
+								class="sneak__control d-flex align-items-center"
+								style="column-gap: 10px; margin-top: 10px"
+							>
+								<input type="checkbox" class="checkbox" />
+								<h1 style="font-size: 16px; font-weight: 400; margin: 0">
+									кеды
+								</h1>
+							</div>
+						</section>
+						<section>
+							<img
+								src="./assets/img/фото кроссовка.svg"
+								alt="photo"
+								style="border-radius: 4px"
+							/>
+							<div
+								class="sneak__control d-flex align-items-center"
+								style="column-gap: 10px; margin-top: 10px"
+							>
+								<input type="checkbox" class="checkbox" />
+								<h1 style="font-size: 16px; font-weight: 400; margin: 0">
+									кеды
+								</h1>
+							</div>
+						</section>
+						<section>
+							<img
+								src="./assets/img/фото кроссовка.svg"
+								alt="photo"
+								style="border-radius: 4px"
+							/>
+							<div
+								class="sneak__control d-flex align-items-center"
+								style="column-gap: 10px; margin-top: 10px"
+							>
+								<input type="checkbox" class="checkbox" />
+								<h1 style="font-size: 16px; font-weight: 400; margin: 0">
+									кеды
+								</h1>
+							</div>
+						</section>
+						<section>
+							<img
+								src="./assets/img/фото кроссовка.svg"
+								alt="photo"
+								style="border-radius: 4px"
+							/>
+							<div
+								class="sneak__control d-flex align-items-center"
+								style="column-gap: 10px; margin-top: 10px"
+							>
+								<input type="checkbox" class="checkbox" />
+								<h1 style="font-size: 16px; font-weight: 400; margin: 0">
+									кеды
+								</h1>
+							</div>
+						</section>
+						<section>
+							<img
+								src="./assets/img/фото кроссовка.svg"
+								alt="photo"
+								style="border-radius: 4px"
+							/>
+							<div
+								class="sneak__control d-flex align-items-center"
+								style="column-gap: 10px; margin-top: 10px"
+							>
+								<input type="checkbox" class="checkbox" />
+								<h1 style="font-size: 16px; font-weight: 400; margin: 0">
+									кеды
+								</h1>
+							</div>
+						</section>
+					</div>
+					<hr class="col-12 getSneak__hr" style="margin-top: 40px" />
+					<div class="many">
+						<h1 style="font-weight: 400; font-size: 16px; color: #808080">
+							1 из 3
+						</h1>
+						<button class="next-step">Следующий шаг</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="quess col-12 d-flex justify-content-center">
+			<div class="cont">
+				<h1
+					style="
+						color: #444b58;
+						font-size: 30px;
+						font-weight: 700;
+						margin-bottom: 40px;
+					"
+				>
+					Часто задаваемые вопросы
+				</h1>
+
+				<hr class="qess__hr" />
+				<button
+					class="quess__btn"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#collapseExample"
+					aria-expanded="false"
+					aria-controls="collapseExample"
+					style=""
+				>
+					Вопрос 1
+				</button>
+				<div class="collapse" id="collapseExample">
+					<div class="card card-body">
+						<p>
+							А это ответ 1: в комплексе функционируют 6 детских садов с
+							площадками, воспитателями и всякими другими людьми
+						</p>
+					</div>
+				</div>
+				<hr class="qess__hr" />
+				<button
+					class="quess__btn"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#collapseExampleTWO"
+					aria-expanded="false"
+					aria-controls="collapseExample"
+					style=""
+				>
+					Вопрос 2
+				</button>
+				<div class="collapse" id="collapseExampleTWO">
+					<div class="card card-body">
+						<p>
+							А это ответ 2: в комплексе функционируют 6 детских садов с
+							площадками, воспитателями и всякими другими людьми
+						</p>
+					</div>
+				</div>
+				<hr class="qess__hr" />
+			</div>
+		</div>
+	</body>
+</html>
